@@ -1,0 +1,49 @@
+
+/* ABOUT */
+
+.about {
+    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.about__header {
+    color: #000000;
+}
+
+.about__text {
+    max-width: 560px;
+    color: #000000;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* MEDIA */
+
+@media (max-width: 1050px) {
+    .about__text {
+        max-width: 480px;
+    }
+}
+
+@media (max-width: 900px) {
+    .about__text {
+        max-width: 400px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 780px) {
+    .about {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 570px) {
+    .about {
+        margin: 0 50px;
+        gap: 5px;
+    }
+}
