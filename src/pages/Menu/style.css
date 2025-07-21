@@ -1,0 +1,28 @@
+
+/* MENU */
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.menu__link {
+    text-decoration: none;
+}
+
+.card__header {
+    font-family: "Oswald", sans-serif;
+}

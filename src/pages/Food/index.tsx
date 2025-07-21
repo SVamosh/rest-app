@@ -1,0 +1,2 @@
+
+export { Food } from './Food';

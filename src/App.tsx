@@ -7,6 +7,10 @@ import { Footer } from './components/Footer';
 import { Main } from './pages/Main';
 import { About } from './pages/About';
 import { Events } from './pages/Events';
+import { Menu } from './pages/Menu';
+import { Descr } from './pages/Descr';
+import { Category } from './pages/Category';
+import { Food } from './pages/Food';
 
 function App() {
   return (
@@ -17,6 +21,10 @@ function App() {
           <Route path='/' element={ <Main /> } />  
           <Route path='/about' element={ <About /> } />
           <Route path='/events' element={ <Events /> } />
+          <Route path='/menu' element={ <Menu /> } />
+          <Route path="/menu/:id" element={ <Descr /> } />
+          <Route path="/menu/:id/:category" element={ <Category /> } />
+          <Route path="/menu/:id/:category/:food" element={ <Food /> } />
         </Routes>
         <Footer />
       </Router>
