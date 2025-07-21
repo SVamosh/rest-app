@@ -1,0 +1,2 @@
+
+export { Descr } from './Descr';
